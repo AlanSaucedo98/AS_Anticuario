@@ -6,8 +6,8 @@ import OktaVue, { LoginCallback } from '@okta/okta-vue'
 import { OktaAuth } from '@okta/okta-auth-js'
 
 const oktaAuth = new OktaAuth({
-  issuer: 'https://{yourOktaDomain}/oauth2/default',
-  clientId: '{yourClientId}',
+  issuer: 'https://https://dev-9708592.okta.com/oauth2/default/oauth2',
+  clientId: '0oa3x8ospoYhR9GbC5d7',
   redirectUri: window.location.origin + '/callback',
   scopes: ['openid', 'profile', 'email']
 })
